@@ -1,7 +1,5 @@
 from django.shortcuts import render
-import json
 
-import requests
 
 from .models import Contact
 
