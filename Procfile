@@ -1,2 +1,2 @@
-web: gunicorn kiboma.wsgi
+web: gunicorn portfolio.wsgi
 
