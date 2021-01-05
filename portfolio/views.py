@@ -12,6 +12,7 @@ def portfolio_page(request):
     
 def contact(request):
     if request.method == 'POST':
+
         email_r = request.POST.get('email')
         subject_r = request.POST.get('subject')
         message_r = request.POST.get('message')
