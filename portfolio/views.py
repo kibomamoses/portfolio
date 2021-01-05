@@ -17,7 +17,7 @@ def contact(request):
         subject_r = request.POST.get('subject')
         message_r = request.POST.get('message')
 
-        c = Contact(name_r,email=email_r, subject=subject_r, message=message_r)
+        c = Contact(name=name_r,email=email_r, subject=subject_r, message=message_r)
         c.save()
 
         return render(request, 'thank.html')
