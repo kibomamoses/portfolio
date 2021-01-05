@@ -1,5 +1,5 @@
 # portfolio
 
-This is my personal portfolio ,Click the link to view
+This is my personal portfolio created by Django framework ,Click the link to view
 
 https://kiboma.herokuapp.com/
